@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Notes</h1>
+        <button id="newBtn" onclick="newBtn()">New</button>
+        <button id="saveBtn" onclick="saveBtn()" style="display: none;">Save</button>
+        <button id="back" onclick="back()" style="display: none;">back</button>
+        <button id="fullView" onclick="fullView()" style="display: none;">FullView</button>
+        
+    </header>
+    <main>
+        <div class="left" id="left">
+
+        </div>
+        <div class="right" id="right">
+            <div class="rightContent">
+                <div class="input" id="input" style="display: none;">
+                    <input  type="text" name="" id="title" placeholder="Title">  <!-- onkeyup="edit()" -->
+                    <textarea name="" id="content" cols="30" rows="10" placeholder="Content"></textarea>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="index.js">
+    
+</script>
+</html>
